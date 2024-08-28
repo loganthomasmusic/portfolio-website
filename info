@@ -1,0 +1,19 @@
+adminuser: root
+pwd: ltstewart
+user: logan
+pwd: ltstewart
+
+commands
+view network address: ifconfig
+run updates: dnf update (run as root)
+ssh from laptop: ssh user@address
+ip: 192.168.1.138
+shut down server: systemctl poweroff
+put server in graphical mode: systemctl isolate graphical.target
+change back to text: systemctl isolate multi-user.target
+list directory: ls -l
+view status of webs server: systemctl status httpd.service postgresql.service
+file server status: smbstatus (run as root)
+view memory usage: free -ht
+view disk usage: df -h
+current working directory: pwd
