@@ -78,6 +78,24 @@
     opacity: 0.8;
   }
 
+  th {
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  td {
+    padding-right: 20px;
+  }
+
+  #download-cv-button {
+    margin-top: 20px;
+  }
+
+  .page-body {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
   .button__secondary {
     background-color: var(--greenBlue);
     color: var(--darkGray);
